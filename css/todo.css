@@ -77,6 +77,7 @@ ul li.checked::before {
 input {
     margin: 0;
     width: 85%;
+    margin-right: 5%;
     padding: 10px;
     float: left;
     font-size: 16px;
@@ -95,7 +96,6 @@ input {
     font-size: 16px;
     cursor: pointer;
     transition: 0.3s;
-    margin-left: 5%;
     border-radius: 5px;
 }
   
