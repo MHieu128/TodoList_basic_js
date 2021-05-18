@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+    <!-- CSS BS4 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- CSS Fontawesome 5 -->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/todo.css"/>
+</head>
+<body>
+    <div class="container">
+        <div id="myDIV" class="header">
+            <h2 ><span><i class="far fa-sticky-note"></i></span> My To Do List</h2>
+            <input type="text" id="myInput" placeholder="Title...">
+            <span onclick="newElement()" class="addBtn">
+                <i class="fas fa-plus"></i>
+                Add
+            </span>
+          </div>
+          
+          <ul id="myUL">
+            <!--List to do will be adding in here-->
+            
+          </ul>
+    </div>
+    
+    <!-- jQuery core -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- JS - BS4 -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Js Fontawesome 5 -->
+    <script src="js/all.js"></script>
+    <!--to do processing-->
+    <script src="js/todo.js"></script>
+</body>
+</html>
