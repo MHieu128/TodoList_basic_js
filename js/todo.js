@@ -49,9 +49,8 @@ var addClose = () => {
     }
 }
 
-// Click on a close button to hide the current list item
+// Declare close button element
 var close = document.getElementsByClassName("close");
-var i;
 
 // Add a "checked" symbol when clicking on a list item
 var list = document.querySelector('ul');
