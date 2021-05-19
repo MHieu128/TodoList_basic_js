@@ -13,9 +13,8 @@ var addNewTodo = (todo, checked) => {
 //Delete the item in array and save override localStorage value
 var deleteTodo = (todoItem, checked) => {
     var todoList = getTodoList();
-    let i=0;
     let pos;
-    todoList.forEach(e => {
+    todoList.forEach((e, i) => {
         if(e.todo === todoItem && e.checked === checked){
             pos = i;
         }
